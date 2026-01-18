@@ -1,1 +1,142 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>Вирусы на ПК</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Segoe UI', sans-serif;
+        }
 
+        body {
+            background: radial-gradient(circle at top, #0f2027, #000);
+            color: #e0e0e0;
+            line-height: 1.6;
+        }
+
+        header {
+            padding: 60px 20px;
+            text-align: center;
+            background: linear-gradient(180deg, #111, #000);
+        }
+
+        header h1 {
+            font-size: 3rem;
+            color: #00f2ff;
+            text-shadow: 0 0 15px #00f2ff;
+        }
+
+        header p {
+            max-width: 700px;
+            margin: 20px auto 0;
+            color: #aaa;
+        }
+
+        section {
+            padding: 60px 20px;
+            max-width: 1100px;
+            margin: auto;
+        }
+
+        h2 {
+            text-align: center;
+            margin-bottom: 40px;
+            color: #00f2ff;
+        }
+
+        .cards {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 25px;
+        }
+
+        .card {
+            background: #0b0b0b;
+            border: 1px solid #1f1f1f;
+            border-radius: 16px;
+            padding: 25px;
+            transition: 0.3s;
+        }
+
+        .card:hover {
+            transform: translateY(-8px);
+            box-shadow: 0 0 25px rgba(0, 242, 255, 0.3);
+        }
+
+        .card h3 {
+            color: #00f2ff;
+            margin-bottom: 10px;
+        }
+
+        footer {
+            text-align: center;
+            padding: 30px;
+            color: #666;
+            border-top: 1px solid #1a1a1a;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Вирусы на ПК</h1>
+    <p>
+        Компьютерные вирусы — это вредоносные программы, способные нарушить
+        работу системы, украсть данные или полностью вывести компьютер из строя.
+    </p>
+</header>
+
+<section>
+    <h2>Основные виды вирусов</h2>
+
+    <div class="cards">
+        <div class="card">
+            <h3>🦠 Трояны</h3>
+            <p>
+                Маскируются под полезные программы и дают злоумышленнику
+                удалённый доступ к компьютеру.
+            </p>
+        </div>
+
+        <div class="card">
+            <h3>💣 Вирусы</h3>
+            <p>
+                Встраиваются в файлы и распространяются при их запуске,
+                повреждая систему.
+            </p>
+        </div>
+
+        <div class="card">
+            <h3>🕷 Черви</h3>
+            <p>
+                Самостоятельно распространяются по сети,
+                нагружая систему и интернет.
+            </p>
+        </div>
+
+        <div class="card">
+            <h3>🔐 Шифровальщики</h3>
+            <p>
+                Шифруют файлы пользователя и требуют выкуп за их восстановление.
+            </p>
+        </div>
+
+        <div class="card">
+            <h3>👁 Spyware</h3>
+            <p>
+                Следят за действиями пользователя и передают данные третьим лицам.
+            </p>
+        </div>
+    </div>
+</section>
+
+<footer>
+    © 2026 | Информационный сайт о вирусах на ПК
+</footer>
+
+</body>
+</html>
